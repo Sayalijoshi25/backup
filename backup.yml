@@ -1,0 +1,6 @@
+---
+- name: take backup of controller
+  hosts: all
+  tasks:
+    - name: backup setup 
+      command: sh /root/ansible-automation-platform-setup-bundle-2.3-1/setup.sh -b:wq
