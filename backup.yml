@@ -1,6 +1,0 @@
----
-- name: take backup of controller
-  hosts: 192.168.122.214
-  tasks:
-    - name: backup setup 
-      command: sh /root/ansible-automation-platform-setup-bundle-2.3-1/setup.sh -b
